@@ -4,7 +4,9 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
-
+.figure{
+  margin: 0;
+}
 .header {
   width: 500px;
   margin: 0 auto;
