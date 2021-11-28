@@ -42,12 +42,14 @@
   display: flex;
 }
 
-#main__todo-list, #main__completed-list {
+#main__todo-list, 
+#main__completed-list {
   margin:0;
   padding: 0px;
 }
 
-.main__todo, .main__todo-header {
+.main__todo, 
+.main__todo-header {
   list-style:none;
 }
 
@@ -115,7 +117,8 @@
 }
 
 /* Task list */
-.main__todo, .main__completed {
+.main__todo, 
+.main__completed {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -124,7 +127,8 @@
   align-items: center;
 }
 
-.main__todo > * , .main__completed > * {
+.main__todo > * , 
+.main__completed > * {
   vertical-align: middle;
 }
 
