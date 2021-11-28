@@ -6,7 +6,7 @@
         href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
-  <body>
+  <body class="body">
     <div class="header">
       <img class="header__img" src="./eisenhower-matrix.jpg">
       <a class="header__more-inf" 
@@ -16,37 +16,37 @@
     </div>
     <div class="main">
       <p class="main__add">
-        <label for="new-task">Add Item</label>
+        <label for="new-task" class="main__add-header part-header">Add Item</label>
         <div class="main__add-row-wrapper">
-          <input id="new-task" class="task" type="text">
+          <input id="new-task" class="main__add-input task task__input" type="text">
             <button>Add</button>
         </div>
       </p>
-      <h3>Todo</h3>
-      <ul id="main__todo">
-        <li>
-          <input type="checkbox">
-          <label class="task">Pay Bills</label>
-          <input type="text" class="task">
-          <button class="button-edit">Edit</button>
-          <button class="button-delete"><img src="./remove.svg"></button>
+      <h3 class="main__todo-header part-header">Todo</h3>
+      <ul id="main__todo-list">
+        <li class="main__todo">
+          <input type="checkbox" class="main__todo-input main__todo-input-checkbox">
+          <label class="task main__todo-label">Pay Bills</label>
+          <input type="text" class="task main__todo-input task__input">
+          <button class="button button-edit">Edit</button>
+          <button class="button button-delete"><img class="button-delete__img" src="./remove.svg"></button>
         </li>
-        <li class="main__todo_edit">
-          <input type="checkbox">
-          <label class="task">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="task">
-          <button class="button-edit">Save</button>
-          <button class="button-delete"><img src="./remove.svg"></button>
+        <li class="main__todo main__todo_edit">
+          <input type="checkbox" class="main__todo-input main__todo-input-checkbox">
+          <label class="task main__todo-label">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="main__todo-input task task__input">
+          <button class="button button-edit">Save</button>
+          <button class="button button-delete"><img class="button-delete__img" src="./remove.svg"></button>
         </li>
       </ul>
-      <h3>Completed</h3>
-      <ul id="main__completed">
-        <li>
-          <input type="checkbox" checked>
-          <label class="task">See the Doctor</label>
-          <input type="text" class="task">
-          <button class="button-edit">Edit</button>
-          <button class="button-delete"><img src="./remove.svg"></button>
+      <h3 class="main__completed-header part-header">Completed</h3>
+      <ul id="main__completed-list">
+        <li class="main__completed">
+          <input type="checkbox"  class="main__todo-input  main__todo-input-checkbox" checked>
+          <label class="task main__todo-label">See the Doctor</label>
+          <input type="text" class="main__todo-input task task__input">
+          <button class="button button-edit">Edit</button>
+          <button class="button button-delete"><img class="button-delete__img" src="./remove.svg"></button>
         </li>
       </ul>
     </div>
