@@ -35,7 +35,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .main__add-row-wrapper {
@@ -140,7 +140,7 @@
 }
 
 .task.main__todo-input {
-  width: 226px  
+  width: 226px;  
 }
 
 .button-delete__img {
@@ -155,13 +155,13 @@
 
 /* Completed */
 .main__completed {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .task.main__todo-input {
-  display:none
+  display:none;
 }
 
 .main__todo_edit .task.main__todo-input {
